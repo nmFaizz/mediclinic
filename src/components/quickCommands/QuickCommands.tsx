@@ -1,6 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function QuickCommands() {
+
     return (
         <div className="px-3 mt-8">
 
@@ -44,7 +46,7 @@ export default function QuickCommands() {
                     </div>
                 </div>
 
-                <div className="bg-red-500 rounded-md h-[90px] flex overflow-hidden p-2">
+                <Link href='/emergency' className="bg-red-500 rounded-md h-[90px] flex overflow-hidden p-2">
                     <div className="flex flex-col justify-end h-full flex-1">
                         <p className="font-[600]">Emergency</p>
                     </div>
@@ -60,7 +62,7 @@ export default function QuickCommands() {
                             />
                         </div>
                     </div>
-                </div>
+                </Link>
 
                 <div className="bg-solid-black-sm rounded-md h-[90px] col-span-2 flex overflow-hidden p-2">
                     <div className="flex flex-col justify-end h-full flex-1">

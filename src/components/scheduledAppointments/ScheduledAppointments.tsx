@@ -12,7 +12,7 @@ export default function ScheduledAppoinments() {
                     <div className="flex items-center justify-between">
                         <p className="line-clamp-1">12 November 2023, 14:00, Sunday</p>
                         <div className="bg-solid-black-sm rounded-md">
-                            <p className="text-yellow-200 font-[600] px-2 py-[2px]">Therapist</p>
+                            <p className="text-yellow-200 text-sm font-[600] px-2 py-[2px]">Therapist</p>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ export default function ScheduledAppoinments() {
                     <p className="text-solid-gray"><span className="text-solid-white font-[600]">Patient:</span> Nicolette Weiss</p>
                 </div>
 
-                <button className="text-center mb-4 font-[600] text-solid-blue py-2 w-full border-[1px] border-solid-blue rounded-md">
+                <button className="text-center hover:bg-solid-blue hover:text-solid-white mb-4 font-[600] text-solid-blue py-2 w-full border-[1px] border-solid-blue rounded-md">
                     View details
                 </button>
             </div>
