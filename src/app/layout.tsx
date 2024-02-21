@@ -4,12 +4,16 @@ import localFont from 'next/font/local'
 
 const font = localFont({src: [
   {
-    path: '../font/Gilroy-ExtraBold.otf',
-    weight: '500'
+    path: '../font/Gilroy-Bold.ttf',
+    weight: '700'
   },
   {
-    path: '../font/Gilroy-Light.otf',
+    path: '../font/Gilroy-Light.ttf',
     weight: '400'
+  },
+  {
+    path: '../font/Gilroy-Medium.ttf',
+    weight: '600'
   }
 ]})
 
