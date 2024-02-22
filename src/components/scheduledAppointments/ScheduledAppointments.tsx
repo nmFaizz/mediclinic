@@ -27,7 +27,7 @@ export default function ScheduledAppoinments() {
                     <p className="text-solid-gray"><span className="text-solid-white font-[600]">Patient:</span> Nicolette Weiss</p>
                 </div>
 
-                <button className="text-center hover:bg-solid-blue hover:text-solid-white mb-4 font-[600] text-solid-blue py-2 w-full border-[1px] border-solid-blue rounded-md">
+                <button className="text-center hover:bg-solid-blue hover:text-solid-white mb-4 font-[600] text-solid-blue py-2 w-full border-[1px] border-solid-blue rounded-[12px]">
                     View details
                 </button>
             </div>

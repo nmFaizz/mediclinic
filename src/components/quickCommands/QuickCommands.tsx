@@ -11,7 +11,7 @@ export default function QuickCommands() {
             </div>
 
             <div className="grid grid-cols-3 gap-3">
-                <div className="bg-solid-black-sm rounded-md h-[90px] col-span-2 p-2 flex overflow-hidden">
+                <div className="bg-solid-black-sm rounded-[12px] h-[90px] col-span-2 p-2 flex overflow-hidden">
                     <div className="flex flex-col justify-end h-full flex-1">
                         <p className="font-[600]">Make an appointment</p>
                     </div>
@@ -28,7 +28,7 @@ export default function QuickCommands() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-solid-blue rounded-md h-[90px] flex p-2 overflow-hidden">
+                <div className="bg-solid-blue rounded-[12px] h-[90px] flex p-2 overflow-hidden">
                     <div className="flex flex-col justify-end h-full flex-1">
                         <p className="font-[600]">View reports</p>
                     </div>
@@ -46,7 +46,7 @@ export default function QuickCommands() {
                     </div>
                 </div>
 
-                <Link href='/emergency' className="bg-red-500 rounded-md h-[90px] flex overflow-hidden p-2">
+                <Link href='/emergency' className="bg-red-500 rounded-[12px] h-[90px] flex overflow-hidden p-2">
                     <div className="flex flex-col justify-end h-full flex-1">
                         <p className="font-[600]">Emergency</p>
                     </div>
@@ -64,7 +64,7 @@ export default function QuickCommands() {
                     </div>
                 </Link>
 
-                <div className="bg-solid-black-sm rounded-md h-[90px] col-span-2 flex overflow-hidden p-2">
+                <div className="bg-solid-black-sm rounded-[12px] h-[90px] col-span-2 flex overflow-hidden p-2">
                     <div className="flex flex-col justify-end h-full flex-1">
                         <p className="font-[600]">Schedule an online appointment</p>
                     </div>

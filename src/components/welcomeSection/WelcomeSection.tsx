@@ -33,7 +33,7 @@ export default function WelcomeSection() {
                 </div>
             </div>
 
-            <div className="w-full flex px-2 items-center bg-solid-black-sm rounded-md text-solid-gray mb-3">
+            <div className="w-full flex px-2 items-center bg-solid-black-sm rounded-[12px] text-solid-gray mb-3">
                 <CiSearch className="text-3xl" />
                 <input type="text" className="text-md outline-none bg-solid-black-sm w-full px-3 py-3 rounded-4xl" placeholder="Search for a doctor, clinic, analysis, etc." />
             </div>

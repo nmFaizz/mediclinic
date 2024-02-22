@@ -49,8 +49,13 @@ export default function AuthStep() {
         }
 
         if (result > 2) {
-            result = 0
-            route.push('/dashboard')
+            result = 2
+
+            setTimeout(() => {
+                result = 0
+            }, 1000)
+            
+            route.push('/home')
         } else if (result < 0) {
             result = 0
             route.push('/')
